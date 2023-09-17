@@ -9,7 +9,7 @@ body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #FDF8F5;
+  background-color:#ECE3F0;
   color: #4F4846;
 }
 
@@ -17,7 +17,15 @@ h1,
 h2 {
   margin: 20px;
 }
-
+.quiltpics {
+  height: 15%;
+  width: 15%;
+  display:inline;
+  border: solid #5E376D 2px;
+  padding: 5px;
+  background-color: #EFE7D3;
+  margin: 2px;
+}
 main {
   padding: 60px 0;
 }
@@ -30,7 +38,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #FDF8F5;
+  color:#5E376D;
 }
 
 header,
@@ -38,12 +46,12 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: #266150;
+  background-color: #EFE7D3;
 }
 
 header {
   position: fixed;
-  border-bottom: 10px solid #DDAF94;
+  border-bottom: 10px solid #ECE3F0;
 }
 
 footer {
@@ -66,8 +74,9 @@ img {
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  border-top: 3px solid #DDAF94;
-  background-color:  #E8CEBF;
+  border-top: 3px solid #5E376D;
+  background-color: #EFE7D3;
+  background-color:  ;
 }
 
 form {
@@ -75,7 +84,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid #DDAF94;
+  border: 5px solid #5E376D;
   border-radius: 20px;
 }
 
@@ -99,13 +108,14 @@ textarea {
 button {
   height: 40px;
   width: 120px;
-  background-color: #4F4846;
+  background-color: #5E376D;
   color: #FDF8F5;
 }
  
 /* Class Selectors */
 .text-center {
   text-align: center;
+  color: #5E376D;
 }
 
 .text-right {
