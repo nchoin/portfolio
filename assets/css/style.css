@@ -6,7 +6,7 @@
 
 /* Element Selectors */
 body {
-  position: relative;
+  /* position: relative; */
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
   background-color:#ECE3F0;
@@ -17,10 +17,15 @@ h1,
 h2 {
   margin: 20px;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+}
 .quiltpics {
   height: 15%;
   width: 15%;
-  display:inline;
   border: solid #5E376D 2px;
   padding: 5px;
   background-color: #EFE7D3;
@@ -61,15 +66,20 @@ footer {
   border-bottom: 10px solid #4F4846;
   color: #FDF8F5;    
 }
-
-figure {
+/*  */
+/* img {
+  height:200px;
+  width: auto;
+  padding: 5px;
+} */
+/* figure {
   margin-bottom: 40px;
-}
+} */
 
-img {
+/* img {
   display: block;
   margin: 20px auto;
-}
+} */
 
 section {
   margin-bottom: 0;
