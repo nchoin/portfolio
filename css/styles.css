@@ -45,6 +45,7 @@
 }
 body {
   background: var(--grey);
+  
 }
 .nav-bg {
   background: var(--turquoise);
@@ -99,16 +100,19 @@ a {
     background: var(--dkblue);
   color: var(--cream);
 }
-/* .card-section{
-  width: 800px;
+.card-section{
+  max-width: 800px;
  
 
-} */
+}
 .bg-image-card{
     background: var(--turquoise);
 }
 .bg-text-card{
-    background: var(--cream);
+    background: var(--grey);
+}
+.app {
+  max-width: 200px;
 }
 .app:hover{
     transition: all ease-in-out .3s;
